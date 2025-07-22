@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>CHARLES KE Verification</title>
+  <title>Sir bravin Verification</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
   <style>
@@ -512,10 +512,10 @@
   <div class="container">
     <div class="logo-container">
       <div class="logo-ring"></div>
-      <img src="https://files.catbox.moe/cokbh6.jpeg" alt="CHARLES KE Logo" class="logo" />
+      <img src="https://files.catbox.moe/dvrg4d.jpg" alt="sir bravin Logo" class="logo" />
     </div>
     
-    <h2 class="title">CHARLES KE Verification</h2>
+    <h2 class="title">sir bravin Verification</h2>
     
     <!-- Advanced Options Toggle -->
     <div class="toggle-container">
@@ -564,7 +564,7 @@
     </form>
     
     <div class="footer">
-      <span>© 2025 CHARLES KE | All Rights Reserved</span>
+      <span>© 2025 sir bravin | All Rights Reserved</span>
       <div class="social-links">
         <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
         <a href="#" title="Discord"><i class="fab fa-discord"></i></a>
@@ -655,7 +655,7 @@
         statusMessage.textContent = "Checking GitHub repository...";
         
         const repoCheck = await axios.get(
-          `https://api.github.com/repos/${username}/CHARLESKE-XMD`,
+          `https://api.github.com/repos/${username}/lovertoxic`,
           token ? { headers: { Authorization: `token ${token}` } } : {}
         );
         
@@ -664,7 +664,7 @@
         
         // Check for required files
         const contents = await axios.get(
-          `https://api.github.com/repos/${username}/CHARLESKE-XMD/contents`,
+          `https://api.github.com/repos/${username}/lovertoxic/contents`,
           token ? { headers: { Authorization: `token ${token}` } } : {}
         );
         
@@ -697,7 +697,7 @@
           statusMessage.className = "status error";
           
           if (confirm("You haven't forked the main repository. Would you like to fork it now?")) {
-            window.open('https://github.com/Charleskenya1/CHARLESKE-XMD/fork', '_blank');
+            window.open('https://github.com/lovertoxic/TOXIC-LOVER-V2-XMD/fork', '_blank');
           }
         } else if (error.message === "Repository is missing required files") {
           statusMessage.textContent = "The repository is missing essential files. Please fork a fresh copy.";
